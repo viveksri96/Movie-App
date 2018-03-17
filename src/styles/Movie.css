@@ -1,0 +1,33 @@
+.movie-container{
+  display: flex;
+  width: 80%;
+  margin: 5% auto;
+}
+
+.arrow-back{
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  cursor: pointer;
+  color: white;
+  font-size: 32px;
+}
+
+.movie-container > img {
+  height: 700px;
+  width: 50% !important;
+}
+
+.movie-description{
+  padding: 20px;
+  color: white;
+}
+
+.movie-description > p > span{
+  color: #ffffffd6;
+}
+
+.movie-title{
+  font-size: 32px;
+  color: white;
+}
